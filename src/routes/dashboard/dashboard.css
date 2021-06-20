@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.portfolio h1{
+  font-size: 40px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.total div {
+  height: 10%;
+  width: 100%;
+  display: flex;
+}
+
+.holdings {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+}
+
+.balance {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+}
+
+.available,
+.on-orders {
+  display: flex;
+  flex-direction: column;
+}
+
+.holdings h3,
+.available h3,
+.on-orders h3 {
+  font-size: 20px !important;
+  width: 100%;
+  margin: 2px;
+}
+
+.holdings p,
+.available p,
+.on-orders p {
+  font-size: 20px !important;
+  width: 100%;
+  margin: 2px;
+}
+
+.assets {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.individual-asset {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  
+}
+
+.coin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.logo{
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percentage,
+.price {
+  width: 100%; 
+}
+
+.individual-asset h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin: 2px;
+}
+
+.individual-asset p {
+  font-size: 20px;
+  margin-top: 0;
+  margin: 2px;
+}
